@@ -208,7 +208,13 @@ L = 10.0        # Länge des MITTLEREN Rings (die äußeren sind hier egal,
 g = 2.0         # Spaltbreite zwischen den Ringen
 E = 24.0        # Strahlenergie in eV (= Kathodenspannung, nur ohne Minus)
 U_BILD = -16.0  # für diese Spannung wird ein Bild gezeichnet
-SPANNUNGEN = [-22, -20, -18, -16, -14, -12, -10, -8, 20, 30, 45, 60]
+SPANNUNGEN = [
+  -50, -49, -48, -47, -46, -45, -44, -43, -42, -41,
+  -40, -39, -38, -37, -36, -35, -34, -33, -32, -31,
+  -30, -29, -28, -27, -26, -25, -24, -23, -22, -21,
+  -20, -19, -18, -17, -16, -15, -14, -13, -12, -11,
+  -10, -9, -8, 20, 30, 45, 60
+]
 # =============================================================================
 
 a = D / 2                       # Rohrradius
